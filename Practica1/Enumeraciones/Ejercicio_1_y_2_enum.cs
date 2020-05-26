@@ -10,7 +10,8 @@ namespace Practica1.Enumeraciones
     {
         public static void Ejecutar()
         {
-            Console.WriteLine("\n* ENUMERACIONES \n");
+			Console.WriteLine("\n* Ejercicio 1 y 2 \n");
+            Console.WriteLine("\n* ENUMERACIONES ...\n");
             Console.WriteLine("1) Crear una enumeración con los días de la semana, comenzando por Domingo con valor 1");
             foreach (var valor in Enum.GetValues(typeof(Dias)))
             {
